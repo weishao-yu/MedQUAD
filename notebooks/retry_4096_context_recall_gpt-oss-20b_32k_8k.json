@@ -1,0 +1,28 @@
+{
+  "test_row": 4096,
+  "method": "MedCPT + FAISS",
+  "metric": "context_recall",
+  "judge": "gpt-oss:20b",
+  "think": "low",
+  "temperature": 0,
+  "num_ctx": 32768,
+  "num_predict": 8192,
+  "source_id": "819",
+  "top5_ids": [
+    "819",
+    "823",
+    "824",
+    "826",
+    "822"
+  ],
+  "context_recall": 1.0,
+  "error": null,
+  "ollama_calls": [
+    {
+      "done_reason": "stop",
+      "prompt_eval_count": 15979,
+      "eval_count": 1777,
+      "response_chars": 6754
+    }
+  ]
+}

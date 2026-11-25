@@ -1,0 +1,16 @@
+﻿# 環境變數與敏感金鑰（絕對不可上傳）
+.env
+.envrc
+
+# 資料庫備份與大型生成向量庫（可透過 build_medcpt.py 重建）
+*.sql
+vector_db/
+*.index
+*.npy
+
+# Python 虛擬環境與快取
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
